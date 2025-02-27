@@ -1,6 +1,6 @@
 const getData = async (location) => {
   const response = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=1779468fada2445a9f3210145250702&q=${location}&days=8&aqi=no&alerts=no`
+    `http://api.weatherapi.com/v1/forecast.json?key=7dd4915119be40c780a50336252702&q=${location}&days=8&aqi=no&alerts=no`
   );
 
   if (!response.ok) {
